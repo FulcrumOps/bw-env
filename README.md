@@ -2,6 +2,8 @@
 
 Populate local environment variables from Bitwarden. This was inspired by [my colleague at Gruntwork](https://blog.gruntwork.io/how-to-securely-store-secrets-in-bitwarden-cli-and-load-them-into-your-zsh-shell-when-needed-f12d4d040df) and then improved slightly.
 
+This content is also on my [blog](https://fulcrumops.com/blog/bitwarden-env-vars).
+
 ## Overview
 
 `bw-env` is a zsh function that retrieves passwords from Bitwarden and sets environment variables based on the key(s) in the `username` field and the password(s) in the `password` field.
